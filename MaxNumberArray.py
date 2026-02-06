@@ -1,4 +1,4 @@
-def largest(arr,n):
+def largest(arr,num):
 
     max= arr[0]
     for i in range(1,n):
@@ -8,8 +8,8 @@ def largest(arr,n):
 
 
 arr = [10,324,45,90,9808]
-n = len(arr)
-result = largest(arr,n)
+num = len(arr)
+result = largest(arr,num)
 print ("The largest number in the given array is ",result)
 
 ''''
