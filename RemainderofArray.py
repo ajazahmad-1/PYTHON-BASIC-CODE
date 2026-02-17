@@ -12,7 +12,7 @@ def Remainder(arr):
         multiple = multiple * i
     return multiple % 11
 
-#Initializing the value and calling the function.    
+#Initializing the value and calling the function..    
 arr = [100, 10, 5, 25, 35, 14]
 result= Remainder(arr)
 print("Remainder of given Arrays:", result)
