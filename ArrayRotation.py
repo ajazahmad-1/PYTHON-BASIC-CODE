@@ -12,5 +12,5 @@ def rverseArray(arr,d):
 #Driver function to test the above function
 arr =[1,2,3,4,5,6,7,8,9,10]
 d = 2
-result = rverseArray(arr,d) #calling function
+result = rverseArray(arr,d) #calling the function
 print("The Array Rotation is",result)
