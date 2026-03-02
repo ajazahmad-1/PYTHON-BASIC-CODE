@@ -4,7 +4,7 @@ Input:  arr[] = [1, 2, 3, 4, 5, 6, 7]
 Output: arr[] = [3, 4, 5, 6, 7, 1, 2] 
 
 ''' 
-#Function to reverse Arr[]
+#Function to reverse Array[]
 def rverseArray(arr,d):
     c = arr[d:] + arr[:d] 
     return c
